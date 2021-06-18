@@ -6,15 +6,14 @@ import About from "../about/about";
 import Navbar from "../navbar/navbar";
 import "./home.css"
 
-export default function Home ( {products, isfetching }){
+export default function Home ( {products }){
     return (
-        <div className="home">
+        <div id="home" className="home">
+            {console.log(products)}
             < Navbar />
             <Welcome />
             <About />
-            <Productgrid
-                productslist = {products}
-                isfetching = {isfetching} 
+            <Productgrid products = {products}
             />
         </div>
     )
