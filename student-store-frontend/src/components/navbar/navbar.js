@@ -8,7 +8,7 @@ export default function Navbar () {
                 
                 <div className="logo">
                     <Link to="/">
-                        <img src="{logo}" alt="codepath logo" />
+                        <img src="https://static.thenounproject.com/png/1839211-200.png" alt="cereal logo" width="100px"/>
                     </Link>
                  </div>
 

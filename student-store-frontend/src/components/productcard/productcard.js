@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import { useParams } from "react-router-dom"
+import "./productcard.css"
 
 export default function Productcard() {
     const {productId} = useParams()
@@ -26,29 +27,21 @@ export default function Productcard() {
     },[productId])
 
     const renderProductCard = () => {
-        if (isLoading) return <h1>Product Details</h1>
+        if (isLoading) return <h1></h1>
         if (error) return <p className="description">No product found</p>
     }
-    // const formatter = new Intl.NumberFormat("en-US", {
-    //     currency: "USD",
-    //     minimumFractionDigits: 2,
-    //     maximumFractionDigits: 2,
-    //   })
-      
-    // const priceFormat = (amount) => {
-    //     return `$${formatter.format(amount)}`
-    //   }
-
+   
     return (
         <div className = "ProductDetails">
             <div className = "product-card">
                 <div className = "product-img">
                     <img src={product.image} alt={product.name}/>
                 </div>
-                <div className="product-category">{product.category}</div>
-                <div className="product-name">{product.name}</div>
-                <div className="product-price">{product.price}</div>
-                <div className="product-desc">{product.description}</div>
+                <div className="content">
+                <div className="product-name">Name: {product.name}</div>
+                <div className="product-price">Price: ${product.price}</div>
+                <div className="product-desc">Description: {product.description}</div>
+                </div>
                 {renderProductCard()}
             </div>
         </div>

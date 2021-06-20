@@ -15,17 +15,13 @@ export default function Productgrid ({ products }) {
                             <div className="product-image">
                                 <img src={product.image} alt={product.name}/>
                             </div>
-                            <div className="product-category">{product.category}</div>
+                            {/* <div className="product-category">{product.category}</div> */}
                             <div className="product-name">{product.name}</div>
-                            <div className="product-price">{product.price}</div>
+                            <div className="product-price">${product.price}</div>
                         </div>
                      </Link>
 
                      
-                    //  <Productcard  
-                    //     key = { product.id }
-                    //     product = {product}
-                    //  />
                     ))}
                 </div>
             </div>

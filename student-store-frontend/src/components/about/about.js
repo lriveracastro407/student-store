@@ -4,20 +4,15 @@ export default function About() {
   return (
     <div className="About" id="About">
       <div className="content">
-        <h3>About</h3>
+        <h3>About Us</h3>
         <div className="summary">
           <div className="text">
-            <p>
-              The Codepath student store offers great products at great prices from a great team and for a great cause.
-            </p>
-            <p>
-              We've searched far and wide for items that perk the interests of even the most eccentric students and
-              decided to offer them all here in one place.
-            </p>
-            <p>All proceeds go towards bringing high quality CS education to college students around the country.</p>
+            <p>Welcome! To the World of Cereal!</p>
+            <p>Here at the World of Cereal we give you honest opinions of the most famous cereals from our world famous critics.</p>
+            <p> </p>
           </div>
           <div className="media">
-            <img src="https://student-store.surge.sh/static/media/giant_codepath.ce489369.svg" alt="codepath logo" />
+            <img src="https://www.foodbusinessnews.net/ext/resources/2019/10/CerealBowls_Lead.jpg" alt="bowls of cereal" height="330px"/>
           </div>
         </div>
       </div>

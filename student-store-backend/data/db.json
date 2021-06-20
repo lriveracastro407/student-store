@@ -2,21 +2,111 @@
   "products": [
     {
       "id": 1,
-      "name": "Rice Krispies",
+      "name": "Raisin Bran",
       "category": "food",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+      "image": "https://images.kglobalservices.com/www.kelloggs.com/en_us/product/product_4508651/kicproductimage-127056_rb.png",
       "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
-      "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
-      "price": 0.99
+      "description": "The Greatest Cereal of ALL TIME. Highly disrespected and underrated. A must have staple of every American Pantry. 11/10",
+      "price": 3.99
     },
     {
       "id": 2,
-      "name": "Flamin Hot Cheetos",
+      "name": "Honey Bunches of Oats",
       "category": "food",
-      "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+      "image": "https://images.heb.com/is/image/HEBGrocery/001144874",
       "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
-      "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
-      "price": 1.5
+      "description": "A King of Cereals. Can be found at your local Costco for a low price or individually sold at your local market. Top Tier with fruits. 9/10",
+      "price": 2.99
+    },
+    {
+      "id": 3,
+      "name": "Special K: Strawberry",
+      "category": "food",
+      "image": "https://images.heb.com/is/image/HEBGrocery/001941323",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Not an old person's cereal. This cereal is notorious for being a cereal that only older individuals can enjoy. But this is a blasphemous accusation. This cereal can be enjoyed by any and all who roam this Earth especially when combined with Raisin Bran. 8/10 alone...12/10 with Raisin Bran",
+      "price": 3.5
+    },
+    {
+      "id": 4,
+      "name": "Honey Nut Cherrios",
+      "category": "food",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_322485ef-5f16-4382-a067-39b46067cb9c?wid=488&hei=488&fmt=pjpeg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Honey Nut Cherrios are good for your heart and your soul. Nothing more needs to be said 10/10",
+      "price": 2.99
+    },
+    {
+      "id": 5,
+      "name": "Reeses Puffs Cereal",
+      "category": "food",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_425087f6-6369-4800-9589-eeb6df43dad9?wid=488&hei=488&fmt=pjpeg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Reeses Puffs, Reeses Puffs, PEANUT BUTTER CHOCOLATE FLAVOR! An iconic jingle. Never had these before but 9/10 for the jingle. ",
+      "price": 3.5
+    },
+    {
+      "id": 6,
+      "name": "Froot Loops",
+      "category": "food",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_45b359ab-33ae-4fa3-8270-20960029d826?wid=488&hei=488&fmt=pjpeg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Delicious Cereal that can be enjoyed dry or with your preferred type of milk. Featured in an iconic scene of the Oscar-Winning Film: Get Out. 10/10",
+      "price": 2.99
+    },
+    {
+      "id": 7,
+      "name": "Cinnamon Toast Crunch ",
+      "category": "food",
+      "image": "https://images.heb.com/is/image/HEBGrocery/002076607",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Cinnamon and Sugar can do no wrong. An elite experience with cinnamilk at the bottom. Bonus Points for the cannibalistic toasts. 10/10",
+      "price": 2.99
+    },
+    {
+      "id": 8,
+      "name": "Frosted Flakes ",
+      "category": "food",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81wG-Kmp3-L._SX425_PIbundle-70,TopRight,0,0_AA425SH20_.jpg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Sugar and Corn is as American as it can get. Combined with a muscular Tiger who loves sports its an instant recipe for success. 8/10",
+      "price": 2.99
+    },
+    {
+      "id": 9,
+      "name": "Lucky Charms",
+      "category": "food",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81uuEC-GHeL._SL1500_.jpg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Marshmellows lack consistency when mixed with the milk. The grains are very subpar and the milk at the end is disgusting. -4/10",
+      "price": 2.99
+    },
+    {
+      "id": 10,
+      "name": "Frosted Mini Wheats ",
+      "category": "food",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/912dsHbN1uL._SX425_.jpg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Perfect blend of sugar and grains that get better with milk. An unforgettable experinence with subpar commercial branding. 8/10",
+      "price": 2.99
+    },
+    {
+      "id": 11,
+      "name": "Fruity Pebbles",
+      "category": "food",
+      "image": "https://pics.drugstore.com/prodimg/413360/900.jpg",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "TV show turned into iconic cereal is the rebranding that no one saw coming. Cereal is delicious but it can't stay in the milk for too long. 9/10",
+      "price": 2.99
+    },
+    {
+      "id": 12,
+      "name": "Cookie Crisp",
+      "category": "food",
+      "image": "https://i5.walmartimages.com/asr/b02d4468-f7db-4b5b-a0e4-e360ceb41321.b25372a4c3d3a86640e6d7fbec59f7eb.png?odnWidth=612&odnHeight=612&odnBg=ffffff",
+      "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+      "description": "Cookies and Milk are like Yin and Yang. But not this one -5/10",
+      "price": 2.99
     }
   ],
   "purchases": []

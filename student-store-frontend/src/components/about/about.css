@@ -1,0 +1,16 @@
+.About .content h3 {
+  font-size: xx-large;
+  font-weight: 600;
+  color: #cfb997;
+  display: flex;
+  justify-content: center;
+}
+.About .content .summary {
+  display: flex;
+  flex-direction: row;
+  height: 330px;
+  border: solid 1px #e0e0e0;
+  font-size: x-large;
+  color: #cfb997;
+  font-weight: 600;
+}
